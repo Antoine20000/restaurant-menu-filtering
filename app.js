@@ -12,8 +12,6 @@ buttons.forEach( (btn) => {
     })
 })
 
-// showItems()
-
 function clearButtons() {
     buttons.forEach( (btn) => btn.classList.remove('active-button'))
 }

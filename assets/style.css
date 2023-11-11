@@ -81,8 +81,6 @@ nav {
 
 .menu-button::after {
   content: '';
-  /* margin-left: auto;
-  margin-right: auto; */
   margin-top: 0.5rem;
   display: block;
   width: 0;
@@ -159,7 +157,7 @@ nav {
   font-weight: 400;
 }
 
-/*@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
   .menu-item {
     display: grid;
     grid-template-columns: 25% auto;
@@ -189,4 +187,4 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
-} */
+} 
