@@ -3,8 +3,6 @@ const items = document.querySelectorAll('.menu-item')
 
 let selectedButton = 'All'
 
-showItems()
-
 buttons.forEach( (btn) => {
     btn.addEventListener('click', () => {
         clearButtons()
@@ -13,6 +11,8 @@ buttons.forEach( (btn) => {
         showItems()
     })
 })
+
+// showItems()
 
 function clearButtons() {
     buttons.forEach( (btn) => btn.classList.remove('active-button'))
