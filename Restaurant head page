@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html>
+<header>
+
+  <title>Top 10 Restaurants in L'Assomption</title>
+  <div class="container">
+    <h1>Top 10 Restaurants in L'Assomption</h1>
+    <style>
+      div {
+        padding: 7px 10px 10px 10px;
+      }
+    </style>
+    <navbar>
+      <ul>
+        <li><a href="#http://127.0.0.1:3000/antoinepelletier/Desktop/Restaurants headpage.html#">Home</a></li>
+        <li><a href="#ChezMinh">Restaurants</a></li>
+        <li><a href="10Menu.pdf" download="10Menu.pdf"> Download the PDF Menu</a></a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Reviews</a></li>
+      </ul>
+    </navbar>
+  </div>
+</header>
+<style>
+  header {
+    background-color: #08614f;
+    color: #afec17;
+    padding: 1rem;
+  }
+
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  header nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  header nav li {
+    margin-right: 1rem;
+  }
+
+  header nav a {
+    color: #4c6a00;
+    text-decoration: none;
+  }
+
+  header nav a:hover {
+    color: #ccc;
+  }
+</style>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="Style.css">
+  <title>Restaurant Menu with Filtering</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Great+Vibes:wght@400;600&family=Noto+Sans:wght@400;600&family=Playpen+Sans:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
+</head>
+
+<body>
+  <nav>
+    <h2 class="log0"> </h2>
+  </nav>
+  <section class="menu">
+    <div class="menu-container">
+      <div class="menu-header">
+        <h2>Our Restaurants</h2>
+        <p>Choose from our delightful Restaurants Establishments. To Place a reservation click on one of the following
+          establishments</p>
+      </div>
+      <div class="menu-buttons">
+        <button type="button" class="menu-button active-button" id="All">The Italian Job Part 4
+          <style></style>
+        </button>
+        <button type="button" class="menu-button" id="Dinner china">Chez Minh</button>
+        <button type="button" class="menu-button" id="Lunch cheese">The Cheese Cave</button>
+        <button type="button" class="menu-button" id="Dinner twin">Fondue my heart</button>
+        <button type="button" class="menu-button" id="Lunch Mac">Mac and Swiss</button>
+        <button type="button" class="menu-button" id="Lunch Pizza">The Napolitano</button>
+        <button type="button" class="menu-button" id="LUNCH MEXICAN">El taco de mi carlo</button>
+        <button type="button" class="menu-button" id="LUNCH subway">Sub Station</button>
+        <button type="button" class="menu-button" id="French">Chez Gusse</button>
+        <button type="button" class="menu-button" id="Dinner Seafood">The Oversea</button>
+
+      </div>
+      <div class="menu-items">
+        <div class="menu-item">
+          <div class="item-image">
+            <img src=Minh.jpg class="img-fluid" alt="Responsive image">
+          </div>
+
+
+          <div class="item-details">
+            <h3 class="item-name">Chez Minh</h3> <a href=ChezMinh.html>Chez Minh</a>
+            <h5>View the Menu:
+              <div> <a href="Chez Minh.pdf" download="Chez Minh.pdf"> Download the PDF Menu</a>
+              </div>
+              <h6></h6>Opening Hours: 12:00-21:00
+              <h4 class="adress">Adress: 456 Rue du dragon Quartier Chinois</h4>
+              <!-- <div class="line"></div> -->
+              <h4 class="item-price">$$</h4>
+              Cheapest item: Egg drop soup 10.00$
+              <ul class="item-rating">
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star_outline</span></li>
+
+              </ul>
+              <p class="item-category">Category: <span>Chinese</span></p>
+              <h5 class="town">Ville: L'assomption</h5>
+          </div>
+
+        </div>
+        <div class="menu-item">
+
+          <div class="item-image">
+            <img src=Italian.jpg class="img-fluid" alt="Responsive image">
+          </div>
+          <div class="item-details">
+            <h3 class="item-name">The Italian Job Part 4</h3><a href=TheItalianjob.html>The Italian
+              Job Part 4</a>
+            <h5>View the Menu:
+              <div> <a href="The italian job part 4.pdf" download="The Italian job part 4.pdf"> Download the PDF
+                  Menu</a>
+              </div>
+              <h6></h6>Opening Hours: 12:00-21:00
+              <h4 class="adress">Adress: 789 Rue du Saucisson Quartier chinois</h4>
+              <!-- <div class="line"></div> -->
+              <h4 class="item-price">$$$</h4>
+              Cheapest item: Cannoli 7.00$
+              <ul class="item-rating">
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star_outline</span></li>
+                <li><span class="material-icons">star_outline</span></li>
+                <li><span class="material-icons">star_outline</span></li>
+
+              </ul>
+              <p class="item-category">Category: <span>Italian</span></p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-image">
+            <img src=Cheese.jpg class="img-fluid" alt="Responsive image">
+          </div>
+          <div class="item-details">
+            <h3 class="restaurant name">The Cheese Cave</h3> <a href=CheeseCave.html>The Cheese Cave</a>
+            <h5>View the Menu:
+              <div> <a href="The Cheese Cave.pdf" download="The Cheese Cave.pdf"> Download the PDF Menu</a>
+              </div>
+              <h6>Opening Hours: 12:00-21:00</h6>
+              <h4 class="adress">Adress: 23 Rue du Egg-roll Quartier Chinois</h4>
+              <!-- <div class="line"></div> -->
+              <h4 class="item-price">$$$</h4>
+              Cheapest item: Caprese Salad 17.00$
+              <ul class="item-rating">
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star_half</span></li>
+              </ul>
+              <p class="item-category">Category: <span>Fancy</span></p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-image">
+            <img src=Fondue.jpg class="img-fluid" alt="Responsive image">
+          </div>
+          <div class="item-details">
+            <h3 class="restaurant-name">Fondue my heart</h3> <a href=Fondueheart.html>Fondue my heart</a>
+            <h5>View the Menu:
+              <div> <a href="Fondue my heart.pdf" download="Fondue my heart.pdf"> Download the PDF Menu</a>
+              </div>
+              <h6></h6>Opening Hours: 12:00-21:00</h6>
+              <h4 class="adress">Adress: 67 Rue du Camembert Quartier Chinois</h4>
+              <!-- <div class="line"></div> -->
+              <h4 class="item-price">$$$$</h4>
+              Cheapest item: Classic Cheese Fondue 33.00$
+              <ul class="item-rating">
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star_half</span></li>
+                <li><span class="material-icons">star_outline</span></li>
+              </ul>
+              <p class="item-category">Category: <span>Fondue</span></p>
+
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-image">
+            <img src=Macandswiss.jpg class="img-fluid" alt="Responsive image">
+          </div>
+          <div class="item-details">
+            <h3 class="item-name">Mac and Swiss</h3> <a href=MacandSwiss.html>Mac and Swiss</a>
+            <h5>View the Menu:
+              <div> <a href="Mac and Swiss.pdf" download="Mac and Swiss.pdf"> Download the PDF Menu</a>
+              </div>
+              <h6></h6>Opening Hours: 12:00-21:00
+              <h4 class="adress">Adress: 1000 Rue du Saule Quartier Chinois</h4>
+              <!-- <div class="line"></div> -->
+              <h4 class="item-price">$$$</h4>
+              Cheapest item: Classic Mac and Cheese 14.00$
+              <ul class="item-rating">
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star_outline</span></li>
+              </ul>
+              <p class="item-category">Category: <span>Pasta</span></p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-image">
+            <img src=Thenapolitano.jpg class="img-fluid" alt="Responsive image">
+          </div>
+          <div class="item-details">
+            <h3 class="item-name">The Napolitano</h3> <a href=Thenapolitano.html>The Napolitano</a>
+            <h5>View the Menu:
+              <div> <a href="The napolitano.pdf" download="The napolitano.pdf"> Download the PDF Menu</a>
+              </div>
+              <h6></h6>Opening Hours: 12:00-21:00
+              <h4 class="adress">Adress: 43 Rue du Sake Quartier Chinois</h4>
+              <!-- <div class="line"></div> -->
+              <h4 class="item-price">$$$</h4>
+              Cheapest item: Margherita Pizza 11.00$
+              <ul class="item-rating">
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star_half</span></li>
+                <li><span class="material-icons">star_outline</span></li>
+              </ul>
+              <p class="item-category">Category: <span>Pizza</span></p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-image">
+            <img src=Mexican.jpg class="img-fluid" alt="Responsive image">
+          </div>
+          <div class="item-details">
+            <h3 class="item-name">El taco de mi carlo</h3> <a href=ElTacoCarlo.html>El taco de mi
+              carlo</a>
+            <h5>View the Menu:
+              <div> <a href="El taco de mi carlo.pdf" download="El taco de mi carlo.pdf"> Download the PDF Menu</a>
+              </div>
+              <h6></h6>Opening Hours: 12:00-21:00
+              <h4 class="adress">Adress: 8675309 Rue Picante Quartier Chinois</h4>
+              <!-- <div class="line"></div> -->
+              <h4 class="item-price">$$</h4>
+              Cheapest item: Mexican street corn 4.00$
+              <ul class="item-rating">
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star_half</span></li>
+              </ul>
+              <p class="item-category">Category: <span>Mexican</span></p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-image">
+            <img src=Sub-station.jpg class="img-fluid" alt="Responsive image">
+          </div>
+          <div class="item-details">
+            <h3 class="item-name">Sub-Station</h3> <a href=SubStation.html>Sub-Station</a>
+            <h5>View the Menu:
+              <div> <a href="Sub-Station.pdf" download="Sub-Station.pdf"> Download the PDF Menu</a>
+              </div>
+              <h6></h6>Opening Hours: 12:00-21:00
+              <h4 class="adress">Adress: 68 Rue du Saule Quartier Chinois</h4>
+              <!-- <div class="line"></div> -->
+              <h4 class="item-price">$</h4>
+              Cheapest item: Potato Chips 3.00$
+              <ul class="item-rating">
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star_outline</span></li>
+              </ul>
+              <p class="item-category">Category: <span>Sandwiches</span></p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-image">
+            <img src=oversea.jpg class="img-fluid" alt="Responsive image">
+          </div>
+          <div class="item-details">
+            <h3 class="item-name">The Oversea</h3> <a href=Theoversea.html>The Oversea</a>
+            <h5>View the Menu:
+              <div> <a href="The oversea.pdf" download="The oversea.pdf"> Download the PDF Menu</a>
+              </div>
+              <h6></h6>Opening Hours: 12:00-21:00
+              <h4 class="adress">Adress: 4 Rue du Fromage Quartier Chinois</h4>
+              <!-- <div class="line"></div> -->
+              <h4 class="item-price">$$$</h4>
+              Cheapest item: Lobster Bisque 10.00$
+              <ul class="item-rating">
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star_outline</span></li>
+              </ul>
+              <p class="item-category">Category: <span>Seafood</span></p>
+          </div>
+
+
+        </div>
+
+        <div class="menu-item">
+          <div class="item-image">
+            <img src=glass.jpg class="img-fluid" alt="Responsive image">
+          </div>
+          <div class="item-details">
+            <h3 class="item-name">Chez Gusse </h3> <a href=ChezGusse.html>Chez Gusse</a>
+            <h5>View the Menu:
+              <div> <a href="Chez Gusse.pdf" download="Chez Gusse.pdf"> Download the PDF Menu</a>
+              </div>
+              <style>
+              </style>
+              <h6></h6>Opening Hours: 12:00-21:00
+              <h4 class="adress">Adress: 123 Rue Menge mon pen Quartier Chinois</h4>
+              <!-- <div class="line"></div> -->
+              <!-- <div class="line"></div> -->
+              <h4 class="item-price">$$$$$</h4>
+              Cheapest item: French onion soup 15.00$
+              <ul class="item-rating">
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star</span></li>
+                <li><span class="material-icons">star_outline</span></li>
+              </ul>
+              <p class="item-category">Category: <span>French</span></p>
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+  </section>
+  <script src="app.js"></script>
+</body>
+
+<div class=</div>
+  <style>
+    *,
+    ::after,
+    ::before {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
+    :root {
+      --Roboto: 'Roboto', 'Open Sans', sans-serif;
+      --Noto: 'Noto Sans', 'Open Sans', sans-serif;
+      --Monts: 'Montserrat', 'Open Sans', sans-serif;
+      --script: 'Playpen Sans', 'Open Sans', sans-serif;
+      --vibes: 'Great Vibes', 'Open Sans', sans-serif;
+      --bred: #69f711;
+      --orange: #ff7b00;
+      --yellow: #5900ff;
+      --lightblue: #ffffff;
+      --darkblue: #000000;
+      --lightgray: #ffffff;
+      --black: #000000;
+    }
+
+    body {
+      font-family: var(--Monts);
+      font-size: 16px;
+      line-height: 1.3;
+      background-color: var(--bred);
+      color: var(--lightgray);
+    }
+
+    .logo {
+      font-family: var(--vibes);
+      font-size: 2.5rem;
+      color: var(--yellow);
+    }
+
+    nav {
+      padding: 1.5rem;
+    }
+
+    .menu {
+      margin: 1.5rem 0;
+    }
+
+    .menu-container {
+      margin: 0 auto;
+      max-width: 1300px;
+      padding: 0 1rem;
+    }
+
+    .menu-item img {
+      width: 100%;
+    }
+
+    .menu-header {
+      text-align: center;
+    }
+
+    .menu-header h2 {
+      font-family: var(--script);
+    }
+
+    .menu-header p {
+      padding: 1.5rem 0;
+    }
+
+    .menu-buttons {
+      display: flex;
+      justify-content: center;
+      margin: 1.5rem 0;
+    }
+
+    .menu-button {
+      font-family: var(--Noto);
+      font-size: 1.1rem;
+      background: none;
+      border: none;
+      color: var(--lightgray);
+      margin: 0 1rem;
+      cursor: pointer;
+    }
+
+    .menu-button::after {
+      content: '';
+      margin-top: 0.5rem;
+      display: block;
+      width: 0;
+      height: 2px;
+      background: var(--lightgray);
+      transition: width 0.4s ease-out;
+    }
+
+    .menu-button:hover::after {
+      width: 100%;
+    }
+
+    .menu-button:hover {
+      opacity: 0.8;
+    }
+
+    .active-button {
+      color: var(--lightblue);
+      opacity: 0.8;
+    }
+
+    .menu-items {
+      margin: 2rem 0;
+    }
+
+    .menu-item {
+      border-radius: 4px;
+      overflow: hidden;
+      background: var(--lightgray);
+      color: var(--black);
+      margin: 0.6rem 0;
+      box-shadow: 0 0 16px rgba(0, 0, 0, 0.75);
+      animation: appear 2s;
+    }
+
+    @keyframes appear {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    .menu-item img {
+      border-radius: 4px;
+    }
+
+    .item-details {
+      padding: 1rem;
+    }
+
+    .item-name {
+      font-family: var(--Roboto);
+      color: var(--darkblue)
+    }
+
+    .item-price {
+      padding: 0.8rem 0;
+      font-size: 1.3rem;
+      opacity: 0.8;
+    }
+
+    .item-rating {
+      list-style-type: none;
+      display: flex;
+    }
+
+    .item-category {
+      font-weight: 600;
+    }
+
+    .item-category span {
+      font-weight: 400;
+    }
+
+    @media only screen and (min-width: 600px) {
+      .menu-item {
+        display: grid;
+        grid-template-columns: 25% auto;
+        align-items: center;
+        padding: 1rem;
+        column-gap: 1rem;
+      }
+
+      .item-details {
+        padding: 0;
+      }
+    }
+
+    @media only screen and (min-width: 768px) {
+      .menu-header p {
+        width: 75%;
+        margin: 0 auto;
+      }
+    }
+
+    @media only screen and (min-width: 992px) {
+      .menu-header p {
+        width: 55%;
+      }
+
+      .menu-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+      }
+    }
+  </style>
+  <footer>
+    <style>
+      footer {
+        background-color: #08614f;
+        color: #afec17;
+        padding: 2rem;
+      }
+
+      footer .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      footer h1 {
+        margin: 0;
+        font-size: 2rem;
+      }
+
+      header nav ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      header nav li {
+        margin-right: 1rem;
+      }
+
+      header nav a {
+        color: #afec17;
+        text-decoration: none;
+      }
+
+      header nav a:hover {
+        color: #ccc;
+      }
+    </style>
+
+    <head>
+
+      <!DOCTYPE html>
+
+      <head>
+      </head>
+
+    <body>
+      <form>
+        <h2>Leave a Review for one of our Restaurants</h2>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="review">Your Review:</label><br>
+        <textarea id="review" name="review"></textarea><br>
+        <select id="rating" name="rating" required>
+          <option value="">--</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select><br>
+
+      </form>
+
+      <head>
+        <style>
+          .button {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none color: #1b0707;
+            background-color: #45d012;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #357235;
+          }
+
+          .button:hover {
+            background-color: #3e8e41
+          }
+
+          .button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+          }
+        </style>
+      </head>
+
+      <body>
+        <button class="button">Submit</button>
+
+      </body>
+    </body>
+
+</html>
